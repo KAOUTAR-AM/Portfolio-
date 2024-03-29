@@ -35,7 +35,7 @@ const Hero = () => {
       <div className='hero-img-container'>
         <div className='tech-icons-left'>
           <div className='tech-icon'>
-            <img src="./assets/images/img00.png" alt="" />
+            <img src="public/assets/images/img00.png" alt="" />
           </div>
           <div className='tech-icon'>
             <img src="./assets/images/img01.png" alt="" />
