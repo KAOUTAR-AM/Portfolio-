@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: 'Frontend',
-        icon: '../../assets/images/frontend-icon.png',
+        icon: './assets/images/frontend-icon.png',
         skills: [
             { skill: 'HTML5', percentage: '80%' },
             { skill: 'CSS3', percentage: '90%' },
@@ -11,7 +11,7 @@ export const SKILLS = [
     },
     {
         title: 'Backend',
-        icon: '../../assets/images/backend-icon.png',
+        icon: './assets/images/backend-icon.png',
         skills: [
             { skill: 'NodeJS', percentage: '80%' },
             { skill: 'ExpressJS', percentage: '90%' },
@@ -21,7 +21,7 @@ export const SKILLS = [
     },
     {
         title: 'Full-Stack',
-        icon: '../../assets/images/full-stack-icon.png',
+        icon: './assets/images/full-stack-icon.png',
         skills: [
             { skill: 'RESTful APIs', percentage: '75%' }, // Added RESTful APIs for full-stack skills
             { skill: 'GraphQL', percentage: '70%' }, // Added GraphQL for full-stack skills
@@ -31,7 +31,7 @@ export const SKILLS = [
     },
     {
         title: 'DevOps', // New category title
-        icon: '../../assets/images/devops-icon.png', // You can provide an icon path here
+        icon: './assets/images/devops-icon.png', // You can provide an icon path here
         skills: [
             { skill: 'Docker', percentage: '80%' },
             { skill: 'Kubernetes', percentage: '75%' },
@@ -41,7 +41,7 @@ export const SKILLS = [
     },
     {
         title: 'Tools',
-        icon: '../../assets/images/tools-icon.png',
+        icon: './assets/images/tools-icon.png',
         skills: [
             { skill: 'Git & GitHub', percentage: '80%' },
             { skill: 'Visual Studio Code', percentage: '90%' },
@@ -51,7 +51,7 @@ export const SKILLS = [
     },
     {
         title: 'SoftSkills',
-        icon: '../../assets/images/soft-skills-icon.png',
+        icon: './assets/images/soft-skills-icon.png',
         skills: [
             { skill: 'Problem Solving', percentage: '80%' },
             { skill: 'Collaboration', percentage: '90%' },
