@@ -1,0 +1,52 @@
+.contact-container{
+margin: 4rem 0;
+position: relative;
+}
+.contact-container h5{
+ font-size: 1.5rem;
+ font-weight: 600;
+ margin-bottom: 3rem;
+}
+
+.Contact-content{
+    display: flex;
+    gap: 3rem;
+}
+
+
+/* ContactMe.css */
+
+.contact-container {
+       width: 100%;
+       padding: 2rem;
+     }
+     
+     .contact-content {
+       display: flex;
+       flex-wrap: wrap; /* Allow wrapping if content exceeds container width */
+     }
+     
+     .contact-content > div {
+       flex: 1;
+       margin-right: 1rem; /* Add some spacing between the cards */
+     }
+     
+     /* Add media query for smaller screens if necessary */
+     @media (max-width: 768px) {
+       .contact-content > div {
+         flex: 1 100%; /* On smaller screens, make each div take full width */
+         margin-right: 0; /* Remove right margin */
+         margin-bottom: 1rem; /* Add some vertical spacing between the cards */
+       }
+     }
+      
+@media(max-width:768px){
+ .Contact-content{
+        flex-direction: column-reverse;
+ }
+ .contact-container h5{
+        font-size: 1.3rem;
+        margin-bottom:2rem;
+ }
+
+}
