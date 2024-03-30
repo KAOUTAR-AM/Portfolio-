@@ -15,7 +15,7 @@ function Navbar() {
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
             <nav className='nav-wrapper'>
                 <div className='nav-content'>
-                    <img className='logo' src='../../assets/images/logo01.png' alt='' />
+                    <img className='logo' src='./assets/images/logo01.png' alt='' />
                     <ul>
                         <li>
                             <a className="menu-item">Home</a>

@@ -35,28 +35,28 @@ const Hero = () => {
       <div className='hero-img-container'>
         <div className='tech-icons-left'>
           <div className='tech-icon'>
-            <img src="../../assets/images/img00.png" alt="" />
+            <img src="./assets/images/img00.png" alt="" />
           </div>
           <div className='tech-icon'>
-            <img src="../../assets/images/img01.png" alt="" />
+            <img src="./assets/images/img01.png" alt="" />
           </div>
           <div className='tech-icon'>
-            <img src="../../assets/images/img02.png" alt="" />
+            <img src="./assets/images/img02.png" alt="" />
           </div>
           <div className='tech-icon'>
-            <img src="../../assets/images/img03.png" alt="" />
+            <img src="./assets/images/img03.png" alt="" />
           </div>
         </div>
-        <img src="../../assets/images/hero-img.png" alt="" />
+        <img src="./assets/images/hero-img.png" alt="" />
         <div className='tech-icons-below'>
           <div className='tech-icon'>
-            <img src="../../assets/images/img04.png" alt="" />
+            <img src="./assets/images/img04.png" alt="" />
           </div>
           <div className='tech-icon'>
-            <img src="../../assets/images/img05.png" alt="" />
+            <img src="./assets/images/img05.png" alt="" />
           </div>
           <div className='tech-icon'>
-            <img src="../../assets/images/img06.png" alt="" />
+            <img src="./assets/images/img06.png" alt="" />
           </div>
         </div>
       </div>
